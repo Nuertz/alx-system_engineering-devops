@@ -1,7 +1,2 @@
 #!/bin/bash
-subdirs=$(find. -type d -mindepth 1 -maxdepth 1)
-for subdir in $subdirs
-do
-    chmod ugo+x "$subdir"
-done
-
+chmod ugo+x -R
